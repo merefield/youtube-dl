@@ -2,8 +2,8 @@ if RUBY_PLATFORM == "java"
   require 'simplecov'
   SimpleCov.start
 else
-  require "codeclimate-test-reporter"
-  CodeClimate::TestReporter.start
+  # require "codeclimate-test-reporter"
+  # CodeClimate::TestReporter.start
 end
 
 $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
